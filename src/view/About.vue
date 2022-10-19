@@ -12,6 +12,11 @@ export default {
     name: "AboutPage",
     components:{
         Navbar,
-    }
+    },
+     mounted() {
+     if( !sessionStorage.getItem("USER_DATA")) {
+        this.$router.push("/")
+     }
+    },
 }
 </script>

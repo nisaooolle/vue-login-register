@@ -20,7 +20,7 @@
             class="form_login"
             placeholder="Masukkan Password.."
             />
-            <button type="submit" class="btn btn-primary poll" @click="loginUser()">Login</button>
+            <button type="submit" class="btn btn-primary poll" >Login</button>
             <br>
             <br>
             <center>
@@ -78,5 +78,5 @@ export default {
         // fungsi toogle pda app.vue
         this.$emit("toggleBar")
     },
-};
+}
 </script>

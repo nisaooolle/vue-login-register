@@ -1,16 +1,100 @@
 {
-    "akuns": [
-      {
-        "id": 1,
-        "username": "admin",
-        "password": "123",
-        "role": "admin"
-      },
-      {
-        "username": "nisa",
-        "password": "2006",
-        "role": "user",
-        "id": 2
-      }
-    ]
-  }
+  "akuns": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "123",
+      "role": "admin"
+    },
+    {
+      "username": "nisa",
+      "password": "2006",
+      "role": "user",
+      "id": 2
+    }
+  ],
+  "kapals": [
+    {
+      "namakapal": "KMP Bobara",
+      "panjang": 33.5,
+      "lebar": 11,
+      "tinggi": 2.8,
+      "saratkapal": 2,
+      "namapemilik": "PT.ASDP Indonesia",
+      "id": 0
+    },
+    {
+      "namakapal": "KMP Uma Kalada",
+      "panjang": 42.4,
+      "lebar": 12,
+      "tinggi": 3,
+      "saratkapal": 2.2,
+      "namapemilik": "PT.ASDP Indonesia",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "namakapal": "41 KMP Portlink",
+      "panjang": "73,77m",
+      "lebar": "16.00m",
+      "tinggi": "4.60m",
+      "saratkapal": "3.50m",
+      "namapemilik": "PT.ASDP Indonesia"
+    },
+    {
+      "id": 3,
+      "namakapal": "KMP Trima Jaya 9",
+      "panjang": 51.41,
+      "lebar": 14,
+      "tinggi": 2.63,
+      "saratkapal": 1.95,
+      "namapemilik": "PT. Pelayaran Makmur Bersama"
+    },
+    {
+      "id": 4,
+      "namakapal": "KMP Tunu Pratama Jaya",
+      "panjang": 51.41,
+      "lebar": 14,
+      "tinggi": 2.63,
+      "saratkapal": 1.95,
+      "namapemilik": "PT. Raputra Jaya"
+    }
+  ],
+  "pesawats": [
+    {
+      "id": 0,
+      "merk": "Emirates",
+      "bandara": "Dubai",
+      "tahun": 1958,
+      "image": "https://asset.kompas.com/crops/39R-XPY7SAx1QP_gEcRqoxn3yEE=/0x0:650x433/750x500/data/photo/2022/01/20/61e958fe3fd61.jpg"
+    },
+    {
+      "id": 1,
+      "merk": "Qantas Airways",
+      "bandara": "Australia",
+      "tahun": 1920,
+      "image": "https://asset.kompas.com/crops/LoV8kxQscy7hSC0KbPXybZ_PqAw=/111x33:911x566/750x500/data/photo/2018/05/08/2264516168.jpg"
+    },
+    {
+      "id": 2,
+      "merk": "Cathay Pacific Airways",
+      "bandara": "Hong Kong",
+      "tahun": 1949,
+      "image": "https://asset.kompas.com/crops/xfingmA7sjuhAYf10bfHTuU4VVY=/0x0:1884x1256/750x500/data/photo/2020/04/09/5e8e9450385db.jpg"
+    },
+    {
+      "id": 3,
+      "merk": "Singapore Airlines",
+      "bandara": "Singapore",
+      "tahun": 1947,
+      "image": "https://asset.kompas.com/crops/vXs9USNidhau9n2P3J55CPN69gU=/0x0:1000x667/750x500/data/photo/2020/03/23/5e78b62829743.jpg"
+    },
+    {
+      "id": 4,
+      "merk": "Japan Airlines",
+      "bandara": "Jepang",
+      "tahun": 1951,
+      "image": "https://asset.kompas.com/crops/dBSFpSWBfz14bQHX-uE4iechvXA=/0x0:0x0/750x500/data/photo/2019/12/27/5e05b689bcc1f.png"
+    }
+  ]
+}

@@ -37,7 +37,7 @@
 export default{
     name: 'NavbarNav',
     computed: {
-      AdminAcces(){
+      UserAcces(){
         return sessionStorage.getItem("role") ==='admin';
       }
     },

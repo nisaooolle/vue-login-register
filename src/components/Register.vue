@@ -66,7 +66,8 @@ export default {
                 );
                 var converToString = JSON.stringify(registerasi.data);
                 sessionStorage.setItem("USER_DATA", converToString);
-                this.$router.push("/motor");
+                sessionStorage.setItem("role", this.register.role);
+                this.$router.push("/home");
                 this.$emit("toggleBar");
             }
         }
